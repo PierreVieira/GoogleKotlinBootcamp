@@ -12,7 +12,7 @@ Use um construtor when para retornar algumas atividades usando como base combina
 fun whatShouldIDoToday(mood: String, weather: String = "sunny", temperature: Int = 24): String {
     return when {
         temperature == 21 -> "This is a good temperature for fish. Try to keep it."
-        mood == "happy" && weather == "Sunny" -> "go for a walk"
+        mood == "happy" && weather == "sunny" -> "go for a walk"
         else -> "Stay home and read."
     }
 }
